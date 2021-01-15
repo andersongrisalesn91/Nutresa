@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondoitem1"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/VerIdCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/VerPropietario"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Id Cliente"
+        android:textColor="@color/blanco_transparente"
+        android:textColorHint="@color/blanco_transparente"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/VerPropietario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/VerEstablecimiento"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Nombre propietario"
+        android:textColor="@color/blanco_transparente"
+        android:textColorHint="@color/blanco_transparente"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/VerEstablecimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Establecimiento"
+        android:textColor="@color/blanco_transparente"
+        android:textColorHint="@color/blanco_transparente"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

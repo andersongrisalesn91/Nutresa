@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.marketteam.desarrollo.nutresa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera2" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:icon="@drawable/mkt3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeNoBar">
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Login"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.ListaClientes"
+            android:screenOrientation="portrait" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.DetalleCliente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.MenuMediciones"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.MenuOpciones"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Validaciones"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.TipoAMenu"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.TipoASubMenu"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Espacios"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Categorias"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Participaciones"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Participaciones2"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Estandares"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.SKUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Activaciones"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Activacionesrd"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Activacionesrdsn"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Activacionestb"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Activacionestbt"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Activos"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.SKUCalidad"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.ConteoEspacios"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.SeleccionCuestionario"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+        android:name="com.marketteam.desarrollo.nutresa.signature"
+        android:hardwareAccelerated="true"
+        android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Sincronizar"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Premios1"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.marketteam.desarrollo.nutresa.Premios2"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.marketteam.desarrollo.nutresa.Generales"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.marketteam.desarrollo.nutresa.MenuInicio"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.marketteam.desarrollo.nutresa.Rechazar"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.marketteam.desarrollo.nutresa.TomarFoto"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

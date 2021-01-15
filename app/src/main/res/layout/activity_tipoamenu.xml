@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondosm"
+    tools:context=".TipoAMenu">
+
+    <ImageView
+        android:id="@+id/BarraPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/fondoitem1"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:srcCompat="@drawable/logo_blanco" />
+
+    <ImageButton
+        android:id="@+id/ibMenu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:onClick="MenuLateral"
+        android:scaleType="centerInside"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu_blanco" />
+
+    <ImageButton
+        android:id="@+id/ibTipoA"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/ibMenu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ictipoa" />
+
+    <ImageButton
+        android:id="@+id/ibValidaciones"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/ibCerrarSesion"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icvalid" />
+
+    <ImageButton
+        android:id="@+id/ibCerrarSesion"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:onClick="cerrarsesion"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/volverblanco" />
+
+    <ImageView
+        android:id="@+id/ivTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/fondosm"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BarraPrincipal" />
+
+    <TextView
+        android:id="@+id/TVNPantalla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/francois_one"
+        android:gravity="center_horizontal"
+        android:text="CATEGORIAS PREGUNTAS TIPOA"
+        android:textAlignment="center"
+        android:textColor="@color/blanco_transparente"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BarraPrincipal" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclertipoamenu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonIrMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivTitulo" />
+
+    <Button
+        android:id="@+id/buttonIrMenu"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/btmenu"
+        android:fontFamily="@font/francois_one"
+        android:onClick="Regresar"
+        android:text="Regresar"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

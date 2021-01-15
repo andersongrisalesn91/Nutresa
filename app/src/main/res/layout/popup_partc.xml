@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="600dp"
+    android:layout_height="880dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="@color/blanco_transparente">
+
+
+    <RelativeLayout
+        android:layout_width="572dp"
+        android:layout_height="424dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/popupborde">
+
+        <TextView
+            android:id="@+id/textoPopPartc"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:fontFamily="@font/francois_one"
+            android:hint="Texto de confirmación"
+            android:textAlignment="center"
+            android:textColor="@color/blanco_transparente"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonPartOk"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginBottom="67dp"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/francois_one"
+            android:text="@string/volver"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonPartCancel"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/buttonPartOk"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="53dp"
+            android:background="@color/colorAccent"
+            android:fontFamily="@font/francois_one"
+            android:text="Ok"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="159dp"
+            android:fontFamily="@font/francois_one"
+            android:text="Valor total:"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView10"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="167dp"
+            android:fontFamily="@font/francois_one"
+            android:text="Valor Nutresa:"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvValorT"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView10"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="114dp"
+            android:background="@android:color/background_light"
+            android:fontFamily="@font/francois_one"
+            android:hint="Valor total"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvValorN"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvValorT"
+            android:layout_alignTop="@+id/textView11"
+            android:background="@android:color/background_light"
+            android:fontFamily="@font/francois_one"
+            android:hint="Valor Nutresa"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+    </RelativeLayout>
+</RelativeLayout>

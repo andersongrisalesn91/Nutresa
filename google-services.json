@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "404736807212",
+    "firebase_url": "https://nutresa-7f30b.firebaseio.com",
+    "project_id": "nutresa-7f30b",
+    "storage_bucket": "nutresa-7f30b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404736807212:android:3649ac509b8b380a",
+        "android_client_info": {
+          "package_name": "com.marketteam.desarrollo.nutresa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404736807212-eek1p90q7oiur8dno5du75dv2296463g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marketteam.desarrollo.nutresa",
+            "certificate_hash": "e794163cb351477406d9d084d36ef6b9d43d2b79"
+          }
+        },
+        {
+          "client_id": "404736807212-v0kek1hmsuk9k8rtaub8j5t7k3pno4vo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb4l_ofgOTrBo96y9ET6cfOWB9QA8klT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404736807212-v0kek1hmsuk9k8rtaub8j5t7k3pno4vo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

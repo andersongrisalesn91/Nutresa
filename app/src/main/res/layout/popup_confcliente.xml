@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco_fondopop">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/popupborde">
+
+        <TextView
+            android:id="@+id/TVTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/francois_one"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/confCliente"
+            android:textAlignment="center"
+            android:textColor="@color/azulletras"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/ConfId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TVTitulo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/francois_one"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Id Cliente"
+            android:textAlignment="center"
+            android:textColor="@color/blanco_transparente"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ConfProp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ConfId"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/francois_one"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Nombre propietario"
+            android:textAlignment="center"
+            android:textColor="@color/blanco_transparente"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ConfEstb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ConfProp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/francois_one"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Nombre establecimiento"
+            android:textAlignment="center"
+            android:textColor="@color/blanco_transparente"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonConfCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/buttonAnCliente"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/btmenu"
+            android:fontFamily="@font/cagliostro"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/confirmar"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonAnCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ConfEstb"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btmenu"
+            android:fontFamily="@font/cagliostro"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/volver"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

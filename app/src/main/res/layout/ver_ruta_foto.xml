@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondoitem1"
+    android:paddingBottom="5dp">
+
+
+    <TextView
+        android:id="@+id/tvRutaFoto"
+        android:layout_width="489dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="3dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/francois_one"
+        android:hint="Ruta Foto"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/blanco_transparente"
+        android:textColorHint="@color/blanco_transparente"
+        android:textSize="14sp" />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/fondoitem1"
+    android:paddingBottom="3dp">
+
+
+    <ImageView
+        android:id="@+id/rtaEstSku"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@+id/rtaEstSkuNo" />
+
+    <ImageView
+        android:id="@+id/rtaEstSkuNo"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/nombreEstSku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/rtaEstSku"
+        android:fontFamily="@font/francois_one"
+        android:hint="Nombre"
+        android:textAlignment="textStart"
+        android:textColor="@color/blanco_transparente"
+        android:textColorHint="@color/blanco_transparente"
+        android:textSize="18sp" />
+
+</RelativeLayout>
